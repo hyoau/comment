@@ -1,0 +1,13 @@
+spring:
+  # 应用名称
+  application:
+    name: comment
+  datasource:
+    url: jdbc:mysql://39.107.230.204:3306/blog
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# 应用服务 WEB 访问端口
+server:
+  port: 8080
